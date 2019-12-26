@@ -14,7 +14,7 @@
     </parent>
     <groupId>com.anmol</groupId>
     <artifactId>alp-pet-clinic</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
     <name>alp-pet-clinic</name>
     <description>Demo project for Spring Boot</description>
 
@@ -34,6 +34,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <goals>install</goals>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                     <checkModificationExcludes>
                         <checkModificationExclude>pom.xml</checkModificationExclude>
                     </checkModificationExcludes>
@@ -46,6 +47,6 @@
         <developerConnection>
             scm:git:https://github.com/anmollp/alp-pet-clinic.git
         </developerConnection>
-      <tag>HEAD</tag>
+      <tag>alp-pet-clinic-0.0.2</tag>
   </scm>
 </project>
