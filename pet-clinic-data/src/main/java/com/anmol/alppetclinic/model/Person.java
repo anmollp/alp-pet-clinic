@@ -1,8 +1,11 @@
 package com.anmol.alppetclinic.model;
 
+import javax.persistence.Entity;
+
+@Entity
 public class Person extends BaseEntity{
     private String firstName;
-    private String lastname;
+    private String lastName;
 
     public String getFirstName() {
         return firstName;
@@ -13,10 +16,10 @@ public class Person extends BaseEntity{
     }
 
     public String getLastname() {
-        return lastname;
+        return lastName;
     }
 
     public void setLastname(String lastname) {
-        this.lastname = lastname;
+        this.lastName = lastname;
     }
 }
